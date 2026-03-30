@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: soap-backend
-          image: your-registry/telecom-soap-backend:latest
+          image: rakeshdocker7/telecom-soap-backend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8090
