@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HUB = "rakeshdocker7"
         APP_NAME = "telecom-soap-backend"
-        KUBECONFIG = "C:\\ProgramData\\Jenkins\\.kube\\config"
+        KUBECONFIG = "C:\\Users\\Welcome\\.kube\\config"
     }
 
     stages {
